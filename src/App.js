@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 import "./App.css";
+import MainButton from "./button/button.index";
 
 function App() {
-  return <h1>Welcome To React</h1>;
+  return <MainButton />;
 }
 
 export default App;

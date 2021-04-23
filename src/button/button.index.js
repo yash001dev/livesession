@@ -28,7 +28,7 @@ function MainButton() {
   return (
     <div>
       <button
-        className={likeToogle ? "liked" : "like-button"}
+        className={likeToogle ? "like-button" : "liked"}
         onClick={() => likefunction()}
       >
         <span>Like I {counter}</span>
